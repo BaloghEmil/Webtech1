@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Serif', sans-serif;
+}
+
+html{
+    background-color: rgb(158, 154, 154);
+    /*background-image: url('https://s1.1zoom.me/b5050/652/BMW_1975-2017_3_Series_Metallic_Factory_528563_3840x2400.jpg');*/
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html p, html h1{
+    /*color: rgb(19, 80, 0);*/
+    text-shadow: 1px 1px #110404;
+}
+
+p{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    border: 2px solid black;
+    border-radius: 5%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr{
+    text-align: center;
+}
+
+table label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.keszito{
+    color: khaki !important;
+    text-align: center;
+    align-content: center;
+    padding-top: 20vh;
+}
+
+
+
+.keszito h1{
+    font-weight: 400;
+    font-size: 72px;
+}
+
+#content{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(178, 241, 153);
+}
+
+.info{
+    padding: 2vh;
+}
+
+.nav-div{
+    padding-top:1vh;
+    padding-bottom:1vh;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(217, 255, 0);
+}
+
+.nav-elem{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #08283a;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+}
+
+.nav-elem:hover{
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+}
+
+#gyartoInformacio, #autokInformacio{
+    padding: 3vh;
+}
+
+
+
+.gyartok, .autok{
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    display: grid;
+    padding-top: 1vh;
+    grid-template-columns: repeat(4, auto);
+    grid-row-gap: 1vh;
+}
+
+.gyartok{
+    background-image: url("../images/gyartobg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.autok{
+    grid-template-columns: repeat(4, auto);
+    grid-row-gap: 1.5vh;
+    background-image: url("../images/autobg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gyarto{
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #719e28;
+    padding: 5%;
+    transition: transform .2s;
+}
+
+.gyarto:hover, .auto:hover{
+    transform: scale(1.2);
+}
+
+.gyartoh1{
+background-color: rgb(236, 236, 155);
+}
+
+.auto{
+    border-radius: 20%;
+    padding-bottom:10px;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #457faf;
+    transition: transform .2s;
+}
+
+
+.fiatal{
+    background-color: #7e41c4;
+}
+
+.oreg{
+    background-color: #694f08;
+}
+
+form{
+    padding-top: 2vh;
+    width: 10%;
+    margin:auto;
+    text-align: start;
+}
+
+input, select{
+    margin-bottom: 1vh;
+}
+
+input[type="submit"]{
+    margin-top:1vh;
+    padding: 10px;
+    border-radius: 3px;
+    cursor:pointer;
+}
